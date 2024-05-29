@@ -1,76 +1,46 @@
-<div  align=center><font face="华文行楷" size=180>南宁师范大学</font></div>
+<div  align=center><font face="华文行楷" size=180>NNNU</font></div>
 
 
 
-<div align=center><h1>Python数据分析与可视化</h1></div>
-
-<div align=center><h1>期末设计</h1></div>
+<div align=center><h1>Python Data Analysis and Visualisation</h1></div>
 
 
 
-
-
-
-
-
-
-<div align=center><h3>题 目： <u>   对全球和中国互联网用户的数据分析与可视化   </u></h3></div>
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
 
 <div STYLE="page-break-after: always;"></div>
 
-
-
-## 一、项目概述
+## Project Overview
 
 
 
-### 1.1. 项目背景：
+### 1.1. project background:
 
-互联网是当今时代最重要和最有影响力的技术之一，它已经深刻地改变了人们的生活、工作、学习等方面。互联网用户数据是反映互联网发展水平和潜力的重要指标，它可以帮助我们了解不同国家地区在互联网领域的优势和劣势，以及存在的差异和不平衡。全球互联网用户数量在过去十年中增长迅速，其中中国是全球最大的互联网市场。然而，全球和中国的互联网用户数据也存在着一些问题和挑战。通过对全球和中国的互联网用户数据进行分析和可视化，我们可以更好地把握互联网领域的变化趋势和分布情况，以及预测未来的发展方向和挑战。
+Internet is one of the most important and influential technologies in today's era, and it has profoundly changed people's life, work, study and other aspects. Internet user data is an important indicator reflecting the level and potential of Internet development, which can help us understand the strengths and weaknesses of different countries and regions in the field of Internet, as well as the differences and imbalances that exist. The number of global Internet users has grown rapidly over the past decade, with China being the world's largest Internet market. However, there are some problems and challenges with global and Chinese Internet user data. By analysing and visualising global and Chinese Internet user data, we can better grasp the changing trends and distribution of the Internet sector, as well as predict future directions and challenges.
 
-### 1.2 数据来源：
+### 1.2 Data Source:
 
-数据来源于kaggle上名为Global Internet users的数据集，数据集链接：[Global Internet users | Kaggle](https://www.kaggle.com/datasets/ashishraut64/internet-users) ，该数据集包含了1980-2020年间关于全球互联网用户的信息。其中包括国家或地区名称、国家代码、年份、每100人的移动端互联网订阅数、互联网用户占总人口的比例、互联网用户数量以及每100人的宽带订阅数等信息。
+The data comes from the dataset named Global Internet users on kaggle, the link to the dataset: [Global Internet users | Kaggle](https://www.kaggle.com/datasets/ashishraut64/internet- users), which contains information about global Internet users from 1980-2020. It includes information such as the name of the country or region, the country code, the year, the number of mobile Internet subscriptions per 100 people, the proportion of Internet users to the total population, the number of Internet users, and the number of broadband subscriptions per 100 people.
 
-### 1.3. 程序功能：
+### 1.3. program function:
 
-分析和可视化全球用户每年的各项数据，如互联网用户总数、移动端互联网订阅数、互联网使用人数比例、宽带订阅数等。
+Analyse and visualise various data on global users per year, such as total number of Internet users, number of Internet subscriptions on mobile, percentage of Internet users, and number of broadband subscriptions.
 
-   - 绘制 2020 年各个国家地区的用户占比饼图和柱状图，展示全球互联网用户占比的分布情况和差异。
-   - 绘制 2020 年各国家地区互联网用户占比分布直方图，展示全球互联网用户占比的分布特征和偏态。
-   - 绘制 2020 年个国家地区互联网用户占比和移动互联网订阅量的散点图，并利用线性回归模型分析两者之间的相关性。
-   - 绘制每一年互联网用户的比例最大的三个国家地区名的词云，展示全球互联网领域的优势和影响力。
-   - 对中国互联网用户数据进行分析和可视化，展示中国在互联网领域的发展水平和潜力，并利用多元线性回归模型预测中国互联网到 2050 年的总用户数。
+   - Plot pie charts and bar charts of the percentage of users in each country-region in 2020 to show the distribution and differences in the percentage of Internet users globally.
+   - To draw histograms of the distribution of the share of Internet users in each country-region in 2020, showing the characteristics and bias of the distribution of the share of Internet users globally.
+   - To plot a scatterplot of the proportion of Internet users and mobile Internet subscriptions in each country-region in 2020, and analyse the correlation between them using a linear regression model.
+   - Plot the word clouds of the names of the three countries and regions with the largest proportion of Internet users in each year to demonstrate the dominance and influence of the global Internet sector.
+   - Analyse and visualise the data on Chinese Internet users to demonstrate China's level of development and potential in the Internet sector, and use multiple linear regression models to predict the total number of Internet users in China by 2050.
 
-### 1.4. 所使用第三方库介绍：
+### 1.4. Introduction to third-party libraries used:
 
-   - numpy 库：用于进行数值计算，如数组、矩阵、向量等的创建、操作和运算。
+   - numpy library: used for numerical computation, such as the creation, manipulation and operation of arrays, matrices, vectors, and so on.
 
-   - pandas 库：用于处理数据，如数据的读取、清洗、分组、聚合、合并等。
-   - matplotlib 库：用于绘制图形，如折线图、柱状图、饼图等，以及设置图形的样式、标题、标签等。
-   - seaborn 库：用于绘制图形，如直方图、散点图等，以及设置图形的主题、颜色等。
-   - wordcloud 库：用于配置和生成词云，如设置词云的形状、大小、字体等。
-   - sklearn 库：用于进行线性回归分析，如创建线性回归模型、拟合数据、预测数据、评估模型等。
+   - pandas library: used for data processing, such as reading, cleaning, grouping, aggregating, merging, etc.
+   - matplotlib library: used to draw graphs, such as line graphs, bar charts, pie charts, etc., as well as set the style of the graphs, titles, labels and so on.
+   - seaborn library: used to draw graphs, such as histograms, scatterplots, etc., as well as set the theme, colour, etc. of the graphs.
+   - wordcloud library: used to configure and generate word clouds, such as setting the shape, size, font, etc. of the word cloud.
+   - sklearn library: for performing linear regression analysis, such as creating linear regression models, fitting data, predicting data, evaluating models, etc.
 
 
 
@@ -78,71 +48,71 @@
 
 
 
-## 二、 功能实现
+## Function Implements
 
 
 
-### 2.1. 数据读取和工具函数的实现
+### 2.1. Data reading and implementation of tool functions
 
-使用 `read_csv` 函数读取 `Final.csv` 文件，获取全球互联网用户信息，定义两个工具函数`set_seaborn_properties`、`get_2020_entities_dataframe`。
+Use `read_csv` function to read `Final.csv` file to get global internet user information, define two tool functions `set_seaborn_properties`, `get_2020_entities_dataframe`.
 
 ```python
-# 从数据集中读取出所有的数据
-global_users = pd.read_csv('../data/Final.csv', delimiter=',', usecols=range(1, 8))
+# Read out all the data from the dataset
+global_users = pd.read_csv('. /data/Final.csv', delimiter=','', usecols=range(1, 8))
 
-# 此函数用于配置每个seaborn图的主题，其中提供了一些默认配置，需要修改的配置在参数中提供，根据图的美观性和实用性需要改变参数
+# This function is used to configure the theme of each seaborn diagram, which provides some default configurations that need to be modified are provided in the parameters, depending on the aesthetics and usefulness of the diagram need to change the parameters
 def set_seaborn_properties(context='talk', font_scale=0.8)
 
-# 此函数用于获取所有Entity的2020年数据组成的DataFrame
+# This function is used to get a DataFrame consisting of 2020 data for all Entities.
 def get_2020_entities_dataframe()
 ```
 
-### 2.2. 全球用户每年的各项数据的分析与可视化
+### 2.2 Analysis and visualisation of global users' annual data
 
-定义一个名为 `global_internet_users_analysis` 的函数，用于分析和可视化全球用户每年的各项数据。在这个函数中，使用 matplotlib 和 seaborn 库绘制了全球每年的互联网用户总数、全球每年每100人移动端互联网订阅数、互联网使用人数比例、每100人宽带订阅数的平均值等图形。
+A function called `global_internet_users_analysis` is defined to analyse and visualise global users per year. In this function, the matplotlib and seaborn libraries are used to graph the total number of global internet users per year, the number of global mobile internet subscriptions per 100 people per year, the ratio of internet users, and the average number of broadband subscriptions per 100 people per year.
 
 ``````python
-plt.subplot(2, 2, 1)  # 绘制子图
-sns.lineplot(data=internet_users_sum_data, x='Year', y='sum')  # 折线图
-plt.bar(column_mean.index, column_mean.values, color='cornflowerblue', width=0.6)  # 配合折线图使构图饱满
+plt.subplot(2, 2, 1) # Drawing subgraphs
+sns.lineplot(data=internet_users_sum_data, x='Year', y='sum') # line graph
+plt.bar(column_mean.index, column_mean.values, color='cornflowerblue', width=0.6) # Combine with line drawings to make a fuller composition
 
-for column in ['Cellular Subscription', 'Internet Users(%)', 'Broadband Subscription']:
+for column in ['Cellular Subscription', 'Internet Users(%)', 'Broadband Subscription']：
     plt.subplot(2, 2, i)
     i += 1
-    # 最大值
+    # Max
     sns.lineplot(data=max_data, x='Year', y='max', label=column + ' max', lw=2, linestyle=(0, (5, 1)))
-    # 平均值
+    # Min
     sns.lineplot(data=mean_data, x='Year', y='mean', label=column + ' mean', lw=3, linestyle=(0, (1, 1)))
 ``````
 
 ![image-20240529104102747](https://fakercodes.oss-cn-hangzhou.aliyuncs.com/sl/OS202405291041811.png?sleflearingnotes)
 
-从图中可以看出：
+It can be seen from the figure:
 
-- 全球互联网用户总数呈现出一个快速增长的趋势，尤其是在 2000 年之后，增长速度更加明显。这说明互联网技术的发展和普及，以及人们对互联网的需求和依赖都在不断增加。
+- The total number of Internet users worldwide has shown a trend of rapid growth, especially after 2000. This shows that the development and popularity of Internet technology, as well as people's demand for and reliance on the Internet have been increasing.
 
-- 全球每100人移动端互联网订阅数也呈现出一个快速增长的趋势，尤其是在 2005 年之后，增长速度更加明显。这说明移动设备的普及和便捷，以及人们对移动互联网的需求和偏好都在不断增加。
+- The number of mobile Internet subscriptions per 100 people in the world has also shown a rapid growth trend, especially after 2005, and the growth rate is more obvious. This indicates that the popularity and convenience of mobile devices, as well as people's demand and preference for mobile Internet are both increasing.
 
-- 全球互联网使用人数比例也呈现出一个快速增长的趋势。这说明互联网已经成为人们生活、工作、学习等方面不可或缺的一部分，以及互联网的覆盖范围和接入方式都在不断扩大和改善。
+- The proportion of people using the Internet globally also shows a fast-growing trend. This indicates that the Internet has become an indispensable part of people's life, work and study, as well as that the coverage and access to the Internet are expanding and improving.
 
-- 全球每100人宽带订阅数呈现出一个缓慢增长的趋势，但在 2010 年之后，增长速度有所放缓。这说明宽带网络的发展和普及还有一定的空间和潜力，以及宽带网络的竞争力和吸引力可能受到了移动网络的影响。
+- The number of broadband subscriptions per 100 people globally has shown a slow growth trend, but the growth rate has slowed down after 2010. This suggests that there is scope and potential for the growth and penetration of broadband networks, as well as that the competitiveness and attractiveness of broadband networks may have been affected by mobile networks.
 
-  
 
-### 2.3. 2020年各个国家地区的用户占比饼图和柱状图绘制
 
-定义了一个名为 `entities_2020_internet_users_percentage_pie_bar` 的函数，用于绘制 2020 年各个国家地区的用户占比饼图和柱状图。在这个函数中，首先获取 2020 年国家地区用户数量最多的10组数据，其他数据用`other`代替的数据封装成的 DataFrame，使用 matplotlib 和 seaborn 库绘制饼图和柱状图。
+### 2.3. Plotting Pie and Bar Charts of Percentage of Users by Country Region in 2020
+
+A function named `entities_2020_internet_users_percentage_pie_bar` is defined to plot a pie chart and a bar chart of the percentage of users in each country region in 2020. In this function, a DataFrame encapsulating the 10 groups of data with the highest number of users in 2020 for each country and region is obtained first, and the other data is replaced by `other` data, and the pie and bar charts are plotted using matplotlib and seaborn libraries.
 
 ```python
-# 只筛选用户数量最多的10组数据，其他数据用`other`代替
+# Filter only the 10 sets of data with the highest number of users, and replace the rest with `other`.
 entity_2020_df.sort_values(by='No. of Internet Users', axis=0, ascending=False, inplace=True)
 processed_data = pd.concat([entity_2020_df.head(10), other_df], axis=0, join='outer')
 
-# 绘制饼图
+# Pie charts drawn
 plt.pie(processed_data['No. of Internet Users'], labels=processed_data.index, explode=explode_arr,
             labeldistance=1.1, autopct='%2.1f%%', pctdistance=0.9, shadow=True)
 
-# 绘制柱状图
+# Plotting bar charts
 sns.barplot(data=data, x='Entity', y='Percent')
 ```
 
@@ -152,29 +122,29 @@ sns.barplot(data=data, x='Entity', y='Percent')
 
 ![image-20240529104138543](https://fakercodes.oss-cn-hangzhou.aliyuncs.com/sl/OS202405291041599.png?sleflearingnotes)
 
-从图中可以看出：
+It can be seen from the figure:
 
-- 在 2020 年，全球互联网用户占比最高的国家地区是中国，占比达到了 20.3%，远高于其他国家地区。这说明中国在互联网领域有着巨大的市场规模和潜力，以及中国在互联网技术、应用、服务等方面有着较强的竞争力和影响力。
+- In 2020, the country and region with the highest proportion of Internet users in the world is China, with a proportion of 20.3 per cent, much higher than other countries and regions. This shows that China has a huge market size and potential in the field of Internet, as well as strong competitiveness and influence in Internet technology, applications and services.
 
-- 在 2020 年，全球互联网用户占比第二高的国家地区是印度，占比为 12.1%，但与中国相比还有较大的差距。这说明印度在互联网领域也有着较大的市场规模和潜力，但与中国相比还有较大的发展空间和挑战。
+- In 2020, the second highest proportion of Internet users in the world will be in India, accounting for 12.1%, but there is still a big gap compared with China. This indicates that India also has a large market size and potential in the Internet sector, but there is still much room for development and challenges compared with China.
 
-- 在 2020 年，全球互联网用户占比第三高的国家地区是南美，占比为 9.7%，与印度相比较为接近。这说明美国在互联网领域也有着较大的市场规模和潜力，但与中国相比也有较大的差距。
+- In 2020, the third highest proportion of Internet users in the world is South America, accounting for 9.7%, which is closer to India. This shows that the United States also has a large market size and potential in the Internet field, but there is also a large gap compared with China.
 
-- 在 2020 年，全球互联网用户占比排名前十的国家地区还包括巴西、印度尼西亚、俄罗斯、日本、墨西哥和埃及。这些国家地区的占比都在 1.5% 到 3.6% 之间，相对较低。这说明这些国家地区在互联网领域还有较大的发展空间和潜力，但也面临着较大的挑战和竞争。
+- In 2020, the top ten countries and regions in terms of the proportion of global Internet users also include Brazil, Indonesia, Russia, Japan, Mexico and Egypt. The share of these countries and regions is between 1.5% and 3.6%, which is relatively low. This shows that these countries and regions still have more room and potential for development in the field of Internet, but also face greater challenges and competition.
 
-- 在 2020 年，全球互联网用户占比排名第十一以后的国家地区的占比加起来只有 约37%，远低于中国的占比。这说明这些国家地区在互联网领域还有较大的不平衡和差距，需要加强互联网技术的普及和提升。
+- In 2020, the proportion of Internet users in countries and regions ranked 11th or later in the world will only be about 37%, much lower than the proportion of China. This shows that these countries and regions still have large imbalances and gaps in the Internet field, and need to strengthen the popularisation and upgrading of Internet technology.
 
-  
 
-### 2.4. 2020年各国家地区互联网用户占比分布直方图
 
-定义了一个名为 `entities_2020_internet_users_percentage_distribution_histogram` 的函数，用于绘制 2020 年各国家地区互联网用户占比分布直方图。在这个函数中，首先获取 2020 年国家地区数据封装成的 DataFrame，然后使用 seaborn 库绘制了直方图。
+### 2.4. Histogram of the distribution of Internet users by country-region in 2020
+
+A function called `entities_2020_internet_users_percentage_distribution_histogram` is defined to plot a histogram of the distribution of the percentage of Internet users by country in 2020. In this function, the DataFrame encapsulating the 2020 country data was first obtained, and then the histogram was plotted using the seaborn library.
 
 ```python
-# 获取数据
+# data-get
 data = pd.DataFrame({'Entity': internet_users_percentage_sr.index, 'Percent':internet_users_percentage_sr.values})
 
-# 绘制直方图
+# Plotting histograms
 sns.histplot(data, x='Percent')
 ```
 
@@ -182,25 +152,25 @@ sns.histplot(data, x='Percent')
 
 ![image-20240529104153487](https://fakercodes.oss-cn-hangzhou.aliyuncs.com/sl/OS202405291041520.png?sleflearingnotes)
 
-从图中可以看出：
+As can be seen in the figure:
 
-- 在 2020 年，各国家地区互联网用户占比的分布呈现出一个右偏态的分布，大部分国家地区的互联网用户占比都集中在较低的范围内，而少数国家地区的互联网用户占比则达到了较高的水平。
+- In 2020, the distribution of the share of Internet users in each country-region shows a right-skewed distribution, with most of the country-regions clustered in the lower range, while a few country-regions reach a higher level of Internet users.
 
-- 在 2020 年，各国家地区互联网用户占比的最高值为 100%，最低值为 0%，平均值为 47.9%，中位数为 53.9%，标准差为 36.1%。这说明各国家地区互联网用户占比存在着较大的差异和不平衡，以及部分国家地区的互联网发展水平还有较大的提升空间。
+- In 2020, the highest value for the share of Internet users in each country-region is 100 per cent, the lowest value is 0 per cent, the mean is 47.9 per cent, the median is 53.9 per cent, and the standard deviation is 36.1 per cent. This shows that there are great differences and imbalances in the proportion of Internet users in various countries and regions, and that there is still much room for improvement in the level of Internet development in some countries and regions.
 
-  
 
-### 2.5. 2020年各国家地区互联网用户占比和移动互联网订阅量的散点图
 
-定义了一个名为 `entities_2020_internet_users_percentage_distribution_scatter` 的函数，用于绘制 2020 年各国家地区互联网用户占比和移动互联网订阅量的散点图。在这个函数中，首先获取 2020 年国家地区数据封装成的 DataFrame，然后使用 seaborn 库绘制了散点图，并利用 sklearn 库中的线性回归模型分析两者之间的关系。
+### 2.5. Scatter Plot of Internet Users Percentage and Mobile Internet Subscriptions by Country Region in 2020
+
+A function called `entities_2020_internet_users_percentage_distribution_scatter` is defined to plot a scatterplot of the percentage of Internet users and mobile Internet subscriptions by country-region in 2020. In this function, the DataFrame encapsulated with the 2020 country-region data is first obtained, then the scatterplot is plotted using the seaborn library, and the relationship between the two is analysed using the linear regression model in the sklearn library.
 
 ```python
-# 绘制散点图
+# Scatterplotting
 sns.scatterplot(data=entity_2020_df, x='Internet Users(%)', y='Cellular Subscription',
-                    palette='husl', hue='Entity', legend=None)  # 根据地区设置hue参数，使颜色丰富
+                    palette='husl', hue='Entity', legend=None)  # Setting the hue parameter according to the region to make the colours rich
 
 
-# 一元线性回归分析两者关系
+# One-way linear regression to analyse the relationship
 x = entity_2020_df[['Internet Users(%)']]
 model_1 = linear_model.LinearRegression()
 model_1.fit(x, entity_2020_df[['Cellular Subscription']])
@@ -212,33 +182,33 @@ sns.lineplot(data=data, x='x', y='pred_y')
 
 ![image-20240529104214541](https://fakercodes.oss-cn-hangzhou.aliyuncs.com/sl/OS202405291042572.png?sleflearingnotes)
 
-从图中可以看出：
+As can be seen in the figure:
 
-- 在 2020 年，各国家地区互联网用户占比和移动互联网订阅量呈现出一个正相关的关系，即互联网用户占比越高的国家地区，移动互联网订阅量也越高，反之亦然。这说明互联网用户占比和移动互联网订阅量是两个相互影响和促进的指标，反映了一个国家地区的互联网发展水平和便捷程度。
+- In 2020, the proportion of Internet users and mobile Internet subscriptions in each country-region show a positive correlation, that is, the higher the proportion of Internet users in a country-region, the higher the mobile Internet subscriptions, and vice versa. This shows that the proportion of Internet users and the number of mobile Internet subscriptions are two indicators that influence and promote each other, reflecting the level of Internet development and convenience of a country or region.
 
-  
 
-### 2.6. 用每一年互联网用户的比例最大的三个国家地区名生成词云
 
-定义了一个名为 `draw_internet_users_percentage_annual_top_3_wordcloud` 的函数，用于绘制每一年互联网用户的比例最大的三个国家地区名生成词云。在这个函数中，首先获取每一年互联网用户的比例最大的三个国家地区名，然后使用 wordcloud 库绘制词云。
+### 2.6. Generate word clouds using the names of the three countries with the largest percentage of Internet users each year
+
+A function called `draw_internet_users_percentage_annual_top_3_wordcloud` is defined to generate a word cloud by drawing the names of the three countries with the largest percentage of Internet users in each year. In this function, we first get the names of the three countries with the largest percentage of Internet users in each year, and then we use the wordcloud library to draw the word cloud.
 
 ```python
 text = ''
 year_groups = global_users.groupby('Year')
-# 获取每一年互联网用户的比例最大的三个国家地区名数据
+# Obtain data on the top three countries with the largest percentage of Internet users in each year.
 for year, year_df in year_groups:
     year_df.sort_values(by='Internet Users(%)', ascending=False, inplace=True)
     top_3 = year_df.head(3)
     entities = top_3['Entity']
-    # 数据处理
+    # data processing
     for entity in entities:
         if len(entity.split()) > 1:
             text += entity.replace(' ', '_') + ' '  
-            # 将名字中含有空格的国家地区名中的空格替换成下划线_，避免一个名字被拆分成多个单词
+            # Replacing spaces with underscores _ in the names of countries and territories with spaces in the name to avoid splitting a name into multiple words
         else:
             text += entity + ' '
 
-# 绘制词云
+# Mapping word clouds
 wc = WordCloud(max_words=100, width=800, height=400, background_color='White',
                max_font_size=150, stopwords=STOPWORDS, margin=5, scale=1.5)
 wc.generate(text)
@@ -251,22 +221,22 @@ plt.show()
 
 ![image-20240529104233984](https://fakercodes.oss-cn-hangzhou.aliyuncs.com/sl/OS202405291042019.png?sleflearingnotes)
 
-从图中可以看出：
+As can be seen from the figure:
 
-- 在 1980-2020 年间，出现频率最高的国家地区名是 Iceland、Norway和Sweden。这说明这些国家地区在互联网领域有着长期的较高的发展水平和优势，以及较高的人口普及率和接入率。
+- Iceland, Norway and Sweden are the most frequently occurring countries and regions in the period 1980-2020, indicating that these countries and regions have a long history of high levels of development and dominance in the Internet sector, as well as high levels of population penetration and access.
 
-- 在 1980-2020 年间，出现频率较高的国家地区名还有 Bermuda、Denmark、Finland、Moracco、Afghanistan和 United_States等。这说明这些国家地区在互联网领域也有着长期的较高的发展水平和优势，以及较高的人口普及率和接入率。
+- In the period of 1980-2020, the names of countries and regions with high frequency of occurrence also include Bermuda, Denmark, Finland, Moracco, Afghanistan, and United_States, etc. This indicates that these countries and regions have a long-term high level of development and advantages in the field of Internet, as well as high population penetration and access rate. This indicates that these countries and regions also have a long history of high levels of development and advantages in the Internet sector, as well as high population penetration and access rates.
 
-- 在 1980-2020 年间，出现频率较低或没有出现的国家地区名有 China、India、Brazil、Indonesia 等。结合2.4中的结果，这些国家地区有些是后起之秀，如中国和印度，有些则在互联网领域还有较大的发展空间和潜力，如巴西和印度尼西亚。
+- In the period of 1980-2020, the names of countries and regions that appear less frequently or do not appear are China, India, Brazil, Indonesia and so on. Combined with the results in 2.4, some of these country-regions are latecomers, such as China and India, while others have more room and potential for development in the Internet sector, such as Brazil and Indonesia.
 
-  
 
-### 2.7. 对中国互联网用户数据的分析与可视化
 
-最后，我们定义了一个名为 `chinese_users_analysis` 的函数，用于对中国互联网用户数据进行分析和可视化。首先通过切片获取中国互联网用户信息。然后使用 matplotlib 和 seaborn 库绘制了各项指标的数值图和增长率图，并利用 sklearn 库中的多元线性回归模型预测中国互联网到 2050 年的总用户数。
+### 2.7. Analysing and Visualising Chinese Internet User Data
+
+Finally, we define a function named `chinese_users_analysis` for analysing and visualising Chinese Internet user data. Firstly, we obtain the information of Chinese Internet users by slicing. Then we used matplotlib and seaborn libraries to plot the value and growth rate of each index, and used the multiple linear regression model in sklearn library to predict the total number of Chinese Internet users by 2050.
 
 ```python
-# 基本信息的折线图
+# Line chart of basic information
 sns.lineplot(data=chinese_users, x='Year', y='No. of Internet Users', label='数量（单位：千万人）', lw=3)
 sns.lineplot(data=chinese_users, x='Year', y='Internet Users(%)', label='占人口的比例', lw=3)
 sns.lineplot(data=chinese_users, x='Year', y='Cellular Subscription', label='移动互联网订阅每一百人比例', lw=3)
@@ -277,77 +247,79 @@ sns.lineplot(data=chinese_users, x='Year', y='Broadband Subscription', label='�
 
 ![image-20240529104306273](https://fakercodes.oss-cn-hangzhou.aliyuncs.com/sl/OS202405291043316.png?sleflearingnotes)
 
-从图中可以看出：
+It can be seen from the figure:
 
-- 中国互联网用户数量呈现出一个快速增长的趋势，尤其是在 2000 年之后，增长速度更加明显。这说明中国在互联网领域有着巨大的市场规模和潜力，以及中国在互联网技术、应用、服务等方面有着较强的竞争力和影响力。
+- The number of Internet users in China shows a trend of rapid growth, especially after 2000, the growth rate is more obvious. This shows that China has a huge market scale and potential in the field of Internet, as well as strong competitiveness and influence in Internet technology, application and service.
 
-- 中国互联网用户占人口比例也呈现出一个快速增长的趋势，尤其是在 2005 年之后，增长速度更加明显。这说明中国在互联网领域有着较高的普及率和接入率，以及中国在互联网领域的需求和依赖都在不断增加。
+- The proportion of Internet users in the population in China also shows a trend of rapid growth, especially after 2005, the growth rate is more obvious. This indicates that China has a high penetration and access rate in the Internet sector, as well as China's demand and reliance on the Internet sector are increasing.
 
-- 中国移动互联网订阅每一百人比例也呈现出一个快速增长的趋势，尤其是在 2005 年之后，增长速度更加明显。这说明中国在移动设备领域有着较高的普及率和便捷程度，以及中国在移动互联网领域的需求和偏好都在不断增加。
+- The ratio of mobile Internet subscriptions per 100 people in China also shows a rapid growth trend, especially after 2005, the growth rate is more obvious. This indicates the high penetration and convenience of mobile devices in China, as well as China's increasing demand and preference for mobile Internet.
 
-- 中国宽带每一百人订阅比例呈现出一个缓慢增长的趋势，但在 2017 年之后，增长速度有所放缓。这说明中国在宽带网络领域还有一定的空间和潜力，以及中国在宽带网络领域的竞争力和吸引力可能受到了移动网络的影响。
+- China's broadband subscription ratio per 100 people shows a slow growth trend, but after 2017, the growth rate has slowed down. This suggests that there is still some room and potential for broadband networks in China, as well as the fact that China's competitiveness and attractiveness in the broadband network space may have been affected by mobile networks.
 
-  ```python
-  # 计算各项增长率
-  rows = len(chinese_users.index)
-  for i in range(rows - 1):
-      chinese_users.loc[:, 'increase of No. of Internet Users'].iloc[i + 1] = 0 if chinese_users.iloc[i]['No. of Internet Users'] == 0 else (chinese_users.iloc[i + 1].loc['No. of Internet Users'] - chinese_users.iloc[i]['No. of Internet Users']) / chinese_users.iloc[i]['No. of Internet Users']
-  ······
-  
-  # 绘制图形
-  sns.lineplot(data=chinese_users, x='Year', y='increase of No. of Internet Users', lw=4,
-                   label='数量（单位：千万人）增长率')
-  ······
-  ```
+```python
+# Calculation of individual growth rates
+rows = len(chinese_users.index)
+for i in range(rows - 1):
+    chinese_users.loc[:, 'increase of No. of Internet Users'].iloc[i + 1] = 0 if chinese_users.iloc[i]['No. of Internet Users'] == 0 else (chinese_users.iloc[i + 1].loc['No. of Internet Users'] - chinese_users.iloc[i]['No. of Internet Users']) / chinese_users.iloc[i]['No. of Internet Users']
+······
 
-  
+# graph of figure
+sns.lineplot(data=chinese_users, x='Year', y='increase of No. of Internet Users', lw=4,
+                 label='数量（单位：千万人）增长率')
+······
+```
+
+
 
 ![image-20240529104333276](https://fakercodes.oss-cn-hangzhou.aliyuncs.com/sl/OS202405291043321.png?sleflearingnotes)
 
-从图中可以看出：
+It can be seen from the figure:
 
-- 中国互联网用户数量增长率和占人口比例增长率基本为同比增长，在1993-2005年之间增长较快之后趋于平稳，这说明中国在互联网领域已经达到了一个较高的发展水平，中国在互联网正在稳步发展。
+- The growth rate of the number of Internet subscriptions and the growth rate of the ratio per 100 population in China are basically year-on-year growth, which tends to level off after a faster growth between 1993-2005, which shows that China has reached a high level of development in the field of Internet, and that China is developing steadily in the Internet.
 
-- 中国移动互联网订阅每一百人比例增长率呈现在1987-2005年之间增长较快之后趋于平稳，尤其是在 2010 年之后，这说明中国在移动设备领域已经达到了一个较高的普及率和便捷程度，以及中国在移动互联网领域已形成良好发展趋势。
+- The growth rate of China's mobile Internet subscription per 100 people showed a levelling off after a faster growth between 1987-2005, especially after 2010, which indicates that China has reached a high level of penetration and convenience in the field of mobile devices, and that China has formed a good development trend in the field of mobile Internet.
 
-- 中国宽带每一百人订阅比例增长率在2000-2002年飞速增长之后又下降并趋于平稳。这说明中国在宽带网络领域有一定的空间和潜力，以及中国在宽带网络领域有着较强的竞争力和吸引力。
+- The growth rate of China's broadband subscription rate per 100 people declined and levelled off after soaring in 2000-2002. This indicates that China has some space and potential in the field of broadband networks, as well as strong competitiveness and attractiveness in the field of broadband networks.
 
-  ```python
-  # 散点图
-  sns.scatterplot(data=chinese_users, x='Year', y='No. of Internet Users')
-  
-  # 三元线性回归拟合
-  poly_reg = PolynomialFeatures(degree=3)
-  ······
-  model_2.fit(x_m, chinese_users[['No. of Internet Users']])
-  data = pd.DataFrame({'x': x['Year'], 'pred_y': [x[0] for x in model_2.predict(x_m)]})
-  
-  # 绘制折线图
-  sns.lineplot(data=data, x='x', y='pred_y')
-  ```
 
-  
+
+```python
+# scatterplot
+sns.scatterplot(data=chinese_users, x='Year', y='No. of Internet Users')
+
+# Ternary linear regression fitting
+poly_reg = PolynomialFeatures(degree=3)
+······
+model_2.fit(x_m, chinese_users[['No. of Internet Users']])
+data = pd.DataFrame({'x': x['Year'], 'pred_y': [x[0] for x in model_2.predict(x_m)]})
+
+# Plotting line graphs
+sns.lineplot(data=data, x='x', y='pred_y')
+```
+
+
 
 ![image-20240529104352148](https://fakercodes.oss-cn-hangzhou.aliyuncs.com/sl/OS202405291043182.png?sleflearingnotes)
 
-从图中可以看出：
+It can be seen from the figure:
 
-- 我们使用 sklearn 库中的多元线性回归模型对 1980 到 2020 年中国互联网总用户数进行了拟合，得到了一个拟合曲线。这个曲线可以用来描述中国互联网总用户数随时间的变化规律，以及评估拟合效果和意义。
+- We used a multiple linear regression model from the sklearn library to fit a fitting curve to the total number of Internet users in China from 1980 to 2020. This curve can be used to describe the pattern of change of the total number of Internet users in China over time, as well as to evaluate the effect and significance of the fit.
 
-  ```python
-  # 预测
-  pred_x = pd.DataFrame(np.arange(1980, 2031), columns=['Year'])
-  pred_x_m = poly_reg.fit_transform(pred_x)
-  
-  # 绘图
-  plt.plot(pred_x, model_2.predict(pred_x_m))
-  ```
+```python
+# predictions
+pred_x = pd.DataFrame(np.arange(1980, 2031), columns=['Year'])
+pred_x_m = poly_reg.fit_transform(pred_x)
 
-  
+# graph
+plt.plot(pred_x, model_2.predict(pred_x_m))
+```
+
+
 
 ![image-20240529104405227](https://fakercodes.oss-cn-hangzhou.aliyuncs.com/sl/OS202405291044263.png?sleflearingnotes)
 
-从图中可以看出：
+It can be seen from the figure:
 
-- 到2030年中国互联网总用户数将达到21.1亿，此预测具有一定的合理性，因为中国互联网用户的各项指标都在飞速增长，中国互联网具有很大的发展潜力与发展活力。
-- 但是此预测也具有一定的局限性，这个预测仅仅只用了一个数据集，没有考虑中国具体国情，仅仅依托数量的线性增长来分析是不合理的，需要更加高级的模型，并且要兼顾中国人口老龄化问题，结合中国人口增长速度来进一步分析，这样的预测效果会更好。
+- By 2030, the total number of Internet users in China will reach 2.11 billion, this prediction has a certain degree of reasonableness, because China's Internet users of all indicators are growing rapidly, China's Internet has great potential for development and vitality of development.
+- However, this prediction also has some limitations, this prediction only uses a data set, without considering the specific conditions of China, it is unreasonable to rely only on the linear growth of the number of analyses, more advanced models are needed, and take into account the problem of China's aging population, combined with the growth rate of China's population to further analyse, so that the prediction effect will be better.
