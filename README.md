@@ -14,7 +14,7 @@
 
 
 
-### 1.1. project background:
+### 1.1 Project background:
 
 Internet is one of the most important and influential technologies in today's era, and it has profoundly changed people's life, work, study and other aspects. Internet user data is an important indicator reflecting the level and potential of Internet development, which can help us understand the strengths and weaknesses of different countries and regions in the field of Internet, as well as the differences and imbalances that exist. The number of global Internet users has grown rapidly over the past decade, with China being the world's largest Internet market. However, there are some problems and challenges with global and Chinese Internet user data. By analysing and visualising global and Chinese Internet user data, we can better grasp the changing trends and distribution of the Internet sector, as well as predict future directions and challenges.
 
